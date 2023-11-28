@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "TodoList",
+    "name": "Todo App",
     "slug": "TodoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icontodo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-custom.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icontodo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kevinsuryahuditara.TodoList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a740648d-1e99-463c-8371-931387ddce39"
+      }
     }
   }
 }
